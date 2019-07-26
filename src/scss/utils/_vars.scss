@@ -1,0 +1,45 @@
+/* FONTS
+   ----------------------------- */
+$sans-serif: 'Rubik', 'Arial', sans-serif;
+$sans-alt: 'Roboto', 'Arial', sans-serif;
+
+/* SPACINGS
+ ----------------------------- */
+$main-font-size: 15px;
+$font--300: 3rem;
+$font--240: 2.5rem; // 38px
+$font--200: 2rem;
+$font--170: 1.7rem; // 26px
+$font--145: 1.45rem; // 22px
+$font--120: 1.2rem; // 18px
+$font--90: .90rem; //13px
+$col--1: 8.33%;
+
+/* BAR
+   ----------------------------- */
+$bar-width: 2rem;
+$bar-height: 2px;
+$bar-spacing: .6rem;
+
+/* COLORS
+   ----------------------------- */
+$gray--700: #807E79;
+$gray--400: #BEBCB7;
+
+/* ANIMATION
+   ----------------------------- */
+$cubic-bezier: cubic-bezier(.54, .57, 0, .96);
+
+/* MEDIA QUERIES
+   ----------------------------- */
+$breakpoint-sm-mx: '(max-width: 40em)';
+$breakpoint-md-mx: '(max-width: 52em)';
+$breakpoint-lg-mx: '(max-width: 64em)';
+
+$c-breakpoint-smartphone-sm: '(max-width: 320px)';
+$c-breakpoint-smartphone: '(max-width: 375px)';
+$c-breakpoint-smartphone-lg: '(max-width: 650px)';
+$c-breakpoint-tablet-sm: '(max-width: 990px)';
+$c-breakpoint-tablet-lg: '(max-width: 1024px)';
+$c-breakpoint-desktop-sm: '(max-width: 1280px)';
+$c-breakpoint-desktop: '(max-width: 1440px)';

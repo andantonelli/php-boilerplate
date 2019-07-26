@@ -1,0 +1,28 @@
+/* COMMONS
+   ----------------------------- */
+ul,
+ul li {
+  list-style-type: disc;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.wysiwyg {
+  line-height: 1.4;
+
+  p {
+    @extend .p0;
+    @extend .m0;
+    @extend .mb2;
+
+    &:last-child {
+      @extend .mb0;
+    }
+  }
+}

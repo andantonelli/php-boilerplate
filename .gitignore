@@ -1,0 +1,22 @@
+package-lock.json
+
+# node
+node_modules
+
+# editor files
+.vscode
+
+# folder view configuration files
+.DS_Store
+Desktop.ini
+
+# thumbnail cache files
+._*
+Thumbs.db
+
+# files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# visual Studio Code folder
+.vscode

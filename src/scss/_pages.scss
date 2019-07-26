@@ -1,0 +1,19 @@
+/* PLACEHOLDER
+   ----------------------------- */
+.content-area > div {
+  height: 100vh;
+
+  .page__header {
+    h1 {
+      @extend .m0;
+      @extend .pb2;
+      font-size: 8rem;
+    }
+
+    h2 {
+      @extend .m0;
+      font-size: 3rem;
+      font-weight: 400;
+    }
+  }
+}
